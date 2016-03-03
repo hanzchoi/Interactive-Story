@@ -18,6 +18,14 @@ public class Page {
 
     }
 
+    public boolean isFinal(){
+        return mIsFinal;
+    }
+
+    public void setFinal(boolean isFinal){
+        mIsFinal = isFinal;
+    }
+
     public Page(int imageId, String text){
         mImageId = imageId;
         mText = text;
